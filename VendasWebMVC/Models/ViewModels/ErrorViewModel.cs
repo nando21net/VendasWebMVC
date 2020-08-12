@@ -1,4 +1,5 @@
 using System;
+using VendasWebMVC.Models.ViewModels;
 
 namespace VendasWebMVC.Models.ViewModels
 {
