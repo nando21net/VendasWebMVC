@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
+using VendasWebMVC.Models.ViewModels;
 
 namespace VendasWebMVC.Migrations
 {
