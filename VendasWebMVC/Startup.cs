@@ -42,7 +42,7 @@ namespace VendasWebMVC
                     builder.MigrationsAssembly("VendasWebMVC")));
 
             services.AddScoped<SeedingService>();  //Registro na injecao de dependencia
-            services.AddScoped<VendedoresServico>();
+            services.AddScoped<VendedoresServico>(); // Servico pode ser injetado em outras classes
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
