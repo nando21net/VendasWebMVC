@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using VendasWebMVC.Data;
 using VendasWebMVC.Servicos;
 
+
 namespace VendasWebMVC
 {
     public class Startup
@@ -43,6 +44,8 @@ namespace VendasWebMVC
 
             services.AddScoped<SeedingService>();  //Registro na injecao de dependencia
             services.AddScoped<VendedoresServico>(); // Servico pode ser injetado em outras classes
+            services.AddScoped<DepartamentoServico>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
